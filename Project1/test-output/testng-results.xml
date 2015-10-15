@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23377" started-at="2015-10-15T13:49:06Z" finished-at="2015-10-15T13:49:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23377" started-at="2015-10-15T13:49:06Z" finished-at="2015-10-15T13:49:29Z">
+      <class name="Package1.class1">
+        <test-method status="PASS" signature="myBefore()[pri:0, instance:Package1.class1@2be94b0f]" name="myBefore" is-config="true" duration-ms="7318" started-at="2015-10-15T19:19:06Z" finished-at="2015-10-15T19:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBefore -->
+        <test-method status="PASS" signature="driverDFTest()[pri:0, instance:Package1.class1@2be94b0f]" name="driverDFTest" duration-ms="15866" started-at="2015-10-15T19:19:13Z" finished-at="2015-10-15T19:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDFTest -->
+        <test-method status="PASS" signature="myEndCode()[pri:0, instance:Package1.class1@2be94b0f]" name="myEndCode" is-config="true" duration-ms="177" started-at="2015-10-15T19:19:29Z" finished-at="2015-10-15T19:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myEndCode -->
+      </class> <!-- Package1.class1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
