@@ -148,3 +148,414 @@ java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\bin:C:\Us
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-10-15 19:21:15.735
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2015-11-17 19:48:57.893 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-17 19:49:37.207
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-17 19:49:37.316
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-11-17 19:49:54.539
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] class1.java [in Package1 [in src [in Project1]]]
+  package Package1
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.Test
+  import org.testng.annotations.BeforeMethod
+  import java.io.File
+  import java.io.FileInputStream
+  import java.io.FileOutputStream
+  import java.util.concurrent.TimeUnit
+  import org.apache.poi.hssf.usermodel.HSSFCell
+  import org.apache.poi.hssf.usermodel.HSSFRow
+  import org.apache.poi.hssf.usermodel.HSSFSheet
+  import org.apache.poi.hssf.usermodel.HSSFWorkbook
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  class class1
+    String vExecute
+    String vTDID
+    String vURL
+    String vPrice
+    String vDown
+    String vTradeIn
+    String vRate
+    String vMonthlyPayment
+    String vTotalPayment
+    String xPrice
+    String xDown
+    String xTradeIn
+    String xRate
+    String xCalc
+    String xMonthly
+    String xTotal
+    WebDriver driver
+    int xRows
+    int xCols
+    String[][] xData
+    String xlPath
+    String xlSheet
+    String xlPathRes
+    void myBefore()
+    void driverDFTest()
+    void myEndCode()
+    void writeXL(String, String, String[][])
+    String[][] readXL(String, String)
+    static String cellToString(HSSFCell)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-17 19:49:55.053
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61478 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--1995087498\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61478 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--1995087498\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-17 19:50:02.443
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] class1.java [in Package1 [in src [in Project1]]]
+  package Package1
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.Test
+  import org.testng.annotations.BeforeMethod
+  import java.io.File
+  import java.io.FileInputStream
+  import java.io.FileOutputStream
+  import java.util.concurrent.TimeUnit
+  import org.apache.poi.hssf.usermodel.HSSFCell
+  import org.apache.poi.hssf.usermodel.HSSFRow
+  import org.apache.poi.hssf.usermodel.HSSFSheet
+  import org.apache.poi.hssf.usermodel.HSSFWorkbook
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  class class1
+    String vExecute
+    String vTDID
+    String vURL
+    String vPrice
+    String vDown
+    String vTradeIn
+    String vRate
+    String vMonthlyPayment
+    String vTotalPayment
+    String xPrice
+    String xDown
+    String xTradeIn
+    String xRate
+    String xCalc
+    String xMonthly
+    String xTotal
+    WebDriver driver
+    int xRows
+    int xCols
+    String[][] xData
+    String xlPath
+    String xlSheet
+    String xlPathRes
+    void myBefore()
+    void driverDFTest()
+    void myEndCode()
+    void writeXL(String, String, String[][])
+    String[][] readXL(String, String)
+    static String cellToString(HSSFCell)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-17 19:50:02.506
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61480 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--1886372125\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61480 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--1886372125\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-17 19:50:11.323
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61482 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--872928198\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\software\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\software\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\software\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 61482 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--872928198\testng-customsuite.xml
+!SESSION 2015-11-30 11:00:45.000 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:01:27.310
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:01:27.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:01:27.498
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:01:27.498
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:05:11.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:05:11.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:06:52.880
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:06:52.885
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2015-11-30 11:07:17.569 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:07:26.119
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:07:26.125
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:08:07.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:08:07.319
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:09:32.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 11:09:32.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:09:51.405
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] class1.java [in Package1 [in src [in Project1]]]
+  package Package1
+  import org.testng.annotations.AfterMethod
+  import org.testng.annotations.Test
+  import org.testng.annotations.BeforeMethod
+  import java.io.File
+  import java.io.FileInputStream
+  import java.io.FileOutputStream
+  import java.util.concurrent.TimeUnit
+  import org.apache.poi.hssf.usermodel.HSSFCell
+  import org.apache.poi.hssf.usermodel.HSSFRow
+  import org.apache.poi.hssf.usermodel.HSSFSheet
+  import org.apache.poi.hssf.usermodel.HSSFWorkbook
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  class class1
+    String vExecute
+    String vTDID
+    String vURL
+    String vPrice
+    String vDown
+    String vTradeIn
+    String vRate
+    String vMonthlyPayment
+    String vTotalPayment
+    String xPrice
+    String xDown
+    String xTradeIn
+    String xRate
+    String xCalc
+    String xMonthly
+    String xTotal
+    WebDriver driver
+    int xRows
+    int xCols
+    String[][] xData
+    String xlPath
+    String xlSheet
+    String xlPathRes
+    void myBefore()
+    void driverDFTest()
+    void myEndCode()
+    void writeXL(String, String, String[][])
+    String[][] readXL(String, String)
+    static String cellToString(HSSFCell)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:09:51.860
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51310 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--845067192\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar org.testng.remote.RemoteTestNG -serport 51310 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--845067192\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:09:59.550
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51315 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse-480792842\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar org.testng.remote.RemoteTestNG -serport 51315 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse-480792842\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:10:59.110
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51318 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--651294953\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar org.testng.remote.RemoteTestNG -serport 51318 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--651294953\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:11:06.291
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51320 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--688985021\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar org.testng.remote.RemoteTestNG -serport 51320 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--688985021\testng-customsuite.xml
+!SESSION 2015-11-30 11:15:50.537 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:16:09.068
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:16:09.083
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 11:16:12.466
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51338 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--483299245\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\test-classes:C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\target\classes:C:\Users\Kingsleydavid.S\SOFTWARE\apache-poi\poi-bin-3.12-20150511\poi-3.12\poi-3.12-20150511.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Users\Kingsleydavid.S\SOFTWARE\eclipse\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar org.testng.remote.RemoteTestNG -serport 51338 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project1\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse--483299245\testng-customsuite.xml
+!SESSION 2015-11-30 11:18:50.959 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:18:59.250
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 11:18:59.250
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-11-30 12:53:10.956 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 12:53:27.337
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-30 12:53:27.476
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kingsleydavid.S'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 12:53:33.978
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-11-30 12:53:33.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2015-11-30 13:00:01.201
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project2\bin C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-java-2.45.0.zip C:\Users\Kingsleydavid.S\SOFTWARE\selenium\poi-3.5-FINAL.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54552 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project2\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse-1850963283\testng-customsuite.xml
+java -ea -classpath C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project2\bin:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-server-standalone-2.47.1.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\junit-4.12.jar:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\selenium-java-2.45.0.zip:C:\Users\Kingsleydavid.S\SOFTWARE\selenium\poi-3.5-FINAL.jar org.testng.remote.RemoteTestNG -serport 54552 -d C:\Users\Kingsleydavid.S\Desktop\SelTest1\Project2\test-output C:\Users\KINGSL~1.S\AppData\Local\Temp\testng-eclipse-1850963283\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.126
+!MESSAGE Launch configuration class1 (1) references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.132
+!MESSAGE Launch configuration class1 (1) references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.141
+!MESSAGE Launch configuration class1 (1) references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.146
+!MESSAGE Launch configuration class1 references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.152
+!MESSAGE Launch configuration class1 references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.161
+!MESSAGE Launch configuration class1 references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.166
+!MESSAGE Launch configuration Project1 references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.170
+!MESSAGE Launch configuration Project1 references closed project Project1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-11-30 13:05:32.179
+!MESSAGE Launch configuration Project1 references closed project Project1

@@ -11,13 +11,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Kingsleydavid.S/software/apache-poi/poi-bin-3.12-20150511/poi-3.12/poi-3.12-20150511.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Kingsleydavid.S/software/selenium/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Kingsleydavid.S/SOFTWARE/apache-poi/poi-bin-3.12-20150511/poi-3.12/poi-3.12-20150511.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Kingsleydavid.S/SOFTWARE/selenium/selenium-server-standalone-2.47.1.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Kingsleydavid.S/SOFTWARE/selenium/junit-4.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
